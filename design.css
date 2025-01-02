@@ -1,43 +1,103 @@
-/* all element selector: should add in all css*/
+/* all element selector : should add in all css*/
 body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-/* selector*/
-#main-title{
-    background-color:gray;
-    height: 100px;
+
+/*id selector*/
+#main-title {
+    background-color: gray;
+    height: 90px;
     width: 100%;
-    font-size: 70px;
+    font-size: 60px;
     color: white;
-    /* horizontally center*/
+    /* horizontally center */
     justify-content: center;
-    display:flex;
-    /* vertically*/
+    display: flex;
+    /* vertically center */
     align-items: center;
 }
 #main-body{
     margin: 10px;
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
 }
-.Card{
-    border-bottom: 4px soild yellow;
+
+.Card {
+    /* border-bottom:width tyoe color; */
+    border-bottom: 4px solid red;
     min-height: 300px;
     width: 250px;
-    margin: 10px;
-    font-size: 20pxpx;
-    color:red;
-    border-radius: 30px;
-    box-shadow: 3px 3px 20px 10px;
+    margin:4px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow:x offset y offset blur radius spread radius color */
+    box-shadow: 3px 3px 20px 10px gray;
 }
 .Cardtitle{
     background-color: red;
-    height: 40px;
+    height: 39px;
     justify-content: center;
-    align-self: center;
-    display: flex;
-    color: aqua;
-    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+    display:flex ;
+    color: azure;
+    border-radius: 10px 10px 0px 0px;
+}
+.Cardbody{
+    font-size: 14px;
+}
+.Card1{
+    border-bottom: 4px solid rgb(218, 205, 22);
+    min-height: 300px;
+    width: 250px;
+    margin:4px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow:x offset y offset blur radius spread radius color */
+    box-shadow: 3px 3px 20px 10px gray;
+
+}
+.Cardtitle1{
+    background-color: rgb(218, 205, 22);
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    color: azure;
+    border-radius: 10px 10px 0px 0px;
+}
+.Card2{
+    border-bottom: 4px solid blue;
+    min-height: 300px;
+    width: 250px;
+    margin:4px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow:x offset y offset blur radius spread radius color */
+    box-shadow: 3px 3px 20px 10px gray;
+}
+.Cardtitle2{
+    background-color: blue;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    color: azure;
+    border-radius: 10px 10px 0px 0px;  
+}
+.dark{
+    background-color: #c0c0c0;
+    border-bottom:1px solid rgb(218, 205, 22) ;
+    border-top: 1px solid rgb(218, 205, 22);
+}
+.dark1{
+    background-color: #c0c0c0;
+}
+.padd{
+    margin:10px;
+    background-color: #c0c0c0;
 }
