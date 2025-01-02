@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #111;
+  }
+  
+  /* Services Section */
+  .services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title::before {
+    content: "SERVICES";
+    display: block;
+    font-size: 0.8rem;
+    color: gold; /* Yellow */
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Card Container */
+  .service-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Individual Card */
+  .card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: black;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
+  /* Explore All Services Link */
+  .explore-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: gold;
+    text-transform: uppercase;
+  }
