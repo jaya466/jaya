@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    color: black;
+    display: flex;
+}
+#main{
+    background-color:white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    width:100px;
+}
+#mainmain{
+    display: flex;
+}
+#card{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    width:100px;
+    height: 75px;
+    border-bottom:1px solid black;
+}
+#card2{
+    height: 400px;
+}
