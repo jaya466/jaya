@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div id="form">
+        <form action="./home.html">
+            <p>LOGIN</p>
+            <!-- <input type="text" name="fullname" placeholder="enter fullname" required/> <br> -->
+            <label for="my-email">Email</label><br>
+            <input type="email" name="email" placeholder="enter email" id="my-email" required /><br><br>
+            <label for="my-password">Password</label><br>
+            <input type="password" name="password" placeholder="enter password" id="my-password" required /><br><br>
+            <!-- <input type="number" name="age" placeholder="enter age" required="true"/><br> -->
+            <button type="submit">Login </button>
+        </form>
+    </div>
+    <form>
+        <input type="color" name="background"><br>
+        <input type="date" name="birthdate"><br>
+        <input type="time" name="nepaltime"><br>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+    </form>
+    <form>
+        <label for="checkboxb">
+            <input type="checkbox" name="terms and conditions" value="true" />
+            terms and conditions
+        </label><br>
+        <label for="rb">Gender</label><br>
+        <input type="radio" name="gg" id="rb" value="male">Male<br>
+        <input type="radio" name="gg" id="rb" value="female"> FemALE
+    </form>
+</body>
+</html>
